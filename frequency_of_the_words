@@ -1,0 +1,9 @@
+def frequency_of_the_words(sentence):
+    words = sentence.split(" ")
+    for word in words:
+        frequency = words.count(word)
+        print(f"{word}:{frequency}")
+
+if __name__ == '__main__':
+    sentence = input('Enter a sentence: ')
+    frequency_of_the_words(sentence)
